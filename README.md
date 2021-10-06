@@ -14,6 +14,7 @@ $ npm # or npm
 
 ```sh
 $ yarn test src/exercise-1
+$ yarn test 08 # it detect the 08-remove-duplicates
 ```
 
 
