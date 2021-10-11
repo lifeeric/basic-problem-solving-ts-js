@@ -1,0 +1,16 @@
+/**
+ * Question: https://leetcode.com/problems/plus-one/
+ */
+
+export const plusOne = (digits: number[]): number[] => {
+  for (let i: number = digits.length - 1; i >= 0; --i) {
+    if (digits[i] < 9) {
+      digits[i] = digits[i] + 1;
+      return digits;
+    } else {
+      digits[i] = 0;
+    }
+  }
+  digits.unshift(1);
+  return digits;
+};
