@@ -14,3 +14,8 @@ export const singleNumber = (nums: number[]) => {
   // converting string into number
   return Object.keys(obj).map((item) => +item);
 };
+
+// Bitwise Operator solution
+// export const singleNumber = (nums: number[]) => {
+//   return nums.reduce((accu, value) => accu ^ value);
+// };
